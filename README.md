@@ -5,7 +5,9 @@ Projet Campus Contest Antoine Lecoffre sur le portfolio professionnel.
 # Contenu
 
 Le dossier "base de donnée" contient l'image du MCd et du MPD.
+
 Le dossier "Document" contient le pdf du compte-rendu, le cahier des charges et le document de suivis d'avancement.
+
 Le dosser "Maquette" contient la maquette qui avait été crée en Décembre.
 
 # Dossier site
