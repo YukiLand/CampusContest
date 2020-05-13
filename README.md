@@ -1,14 +1,25 @@
 # Portfolio professionnel 
 
-Projet Campus Contest de Chauvac Henri et Lecoffre Antoine, sur le portfolio professionnel.
+Projet Campus Contest Antoine Lecoffre sur le portfolio professionnel.
 
-Le dossier "base de donnÃ©e" contient l'image du MCd et du MPD
-Le dossier "Document" contient le pdf du compte-rendu, le cahier des charges et le document de suivis d'avancement
-Le dosser "Maquette" contient la maquette qui avait Ã©tÃ© crÃ©e en DÃ©cembre
-Le dossier "Site" contient tout les Ã©lÃ©ments relatif aux sites comme les images et les diffÃ©rentes pages et pages css :
+#Contenu
 
-index.html est la page principal en francais
-english.html est la mÃªme page mais en anglais
-parallax.css est le fichier contenant le css relatif au parallax
-style.css est tout le css relatif Ã  tout ce qui ne concerne pas les background
-Jaapokki-Regular.otf est la police utilisÃ© dans la premiÃ¨re slide
+Le dossier "base de donnÃ©e" contient l'image du MCd et du MPD.
+Le dossier "Document" contient le pdf du compte-rendu, le cahier des charges et le document de suivis d'avancement.
+Le dosser "Maquette" contient la maquette qui avait Ã©tÃ© crÃ©e en DÃ©cembre.
+
+#Dossier site
+
+Ce dossier contient tous les éléments concernant le site comme le dossier :
+
+-html-fragment : Ce dossier contient des morceaux d'html qui sont ajoutés dans le fichier index.php via la fonction « include », en procédant ainsi on aère le code du site web et la page index ne contient que le code essentiel.
+
+-image : Celui-ci contient toutes les images utilisées sur le site.
+
+-js : Contient le code javascript
+
+-ressources : Il sert à insérer les ressources nécessaires au bon fonctionnement du site comme les fichiers bootstrap par exemple.
+
+-styles : Ce dossier contient tous les fichiers CSS qui sont utilisés dans le site.
+
+Le dossier "site" contient également un fichier nommé index.php qui sera le fichier réunissant tous les codes et les mettant à exécutions.

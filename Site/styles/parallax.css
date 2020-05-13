@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Milkshake';
+    src: url('Milkshake.otf');
+    font-family: 'Baloo';
+    src: url('Baloo-Regular.ttf');
+    font-family: 'Lato';
+    src: url('Lato-Regular.ttf');
+}
+
+.slides {
+  margin:0;
+  padding:0;
+  color: #FFFFFF;
+  text-align: center;
+  animation: fadein 3s;
+}
+#slide1 {   /*css 1ere slide */
+  padding-top:50px;  /* permet de descendre le titre */
+  height: 1200px;
+  background: url(../image/black.jpg) no-repeat center 0 fixed; 
+  width: 100%;
+  background-size: cover; /* version standardisée */
+}
+#slide2 { /*css 2em slide */
+  height: 1290px;
+  background: url(../image/code.jpg) no-repeat center 0 fixed; 
+  width: 100%;
+  background-size: cover; /* version standardisée */
+}
+#slide3 {  /*css 3em slide */
+  height: 1150px; 
+  background: url(../image/3d.jpg) no-repeat center 0 fixed;
+  width: 100%;
+  background-size: cover; /* version standardisée */
+}
+
+#slide4 {  /*css 3em slide */
+  height: 1290px; 
+  background: url(../image/projet.jpg) no-repeat center 0 fixed; 
+  width: 100%;
+  background-size: cover; /* version standardisée */
+}
+
+#slide5 {  /*css 3em slide */
+  height: 1290px; 
+  background: url(../image/Reco.jpg) no-repeat center 0 fixed; 
+  width: 100%;
+  background-size: cover; /* version standardisée */
+}
+#slide6 {  /*css 3em slide */
+  height: 850px; 
+  background: url(../image/Server.jpg) no-repeat center 0 fixed; 
+  width: 100%;
+  background-size: cover; /* version standardisée */
+}
+
+
+@keyframes fadein {
+   from {
+     opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+
