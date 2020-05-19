@@ -2,32 +2,33 @@
 .flip-card {
     display: inline-block;
     background-color: transparent;
-    margin-top: 2%;
+    margin-top: 3%;
     margin-left: 1%;
     margin-right: 1%;
     width: 600px;
     max-width: 30%;
-    height: 1000px;
+    height: 950px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
   /* This container is needed to position the front and back side */
-  .flip-card-inner {
+.flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
+    vertical-align: auto;
     transition: transform 0.8s;
     transform-style: preserve-3d;
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
+.flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
   
   /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
+.flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -36,14 +37,134 @@
   }
   
   /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color: #bbb;
+.flip-card-front-1 {
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 31%, rgba(8,145,0,1) 100%);
     color: black;
   }
-  
-  /* Style the back side */
-  .flip-card-back {
-    background-color: dodgerblue;
+
+.flip-card-front-2 {
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 31%, rgba(33,171,218,1) 95%);
+    color: black;
+  }
+
+.flip-card-front-3 {
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 31%, rgba(255,89,0,1) 100%);
+    color: black;
+  }
+.flip-card-front > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    width:245px;
+    height:308px;
+
+}
+
+.flip-card-front > h2 {
+    margin-top: 200px;
+    color: white;
+}
+
+/* Style the back side */  
+.flip-card-back {
     color: white;
     transform: rotateY(180deg);
   }
+
+.flip-card-back-1 {
+    background-image: url(../image/forest.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.flip-card-back-2 {
+    background-image: url(../image/sea.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.flip-card-back-3 {
+    background-image: url(../image/mountain.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.flip-card-back-2 > .grand {
+    margin-top: 5%;
+    width: 120px;
+    height: 120px;
+}
+
+.flip-card-back-2 > img.petit {
+    width: 80px;
+    height: 80px;
+}
+
+/* ------------------------------------------------------*/
+
+.ligne1 > img.grand { 
+    margin-top: 8%;
+    width: 27%;
+    height: 27%;
+}
+.ligne1 > img.petit { 
+    margin-top: 8%;
+    margin-right: 8%;
+    margin-left: 8%;
+    width: 20%;
+    height: 20%;
+}
+
+.ligne2 > img.grand { 
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 27%;
+    height: 27%;
+}
+
+
+.ligne3 > img.grand { 
+    margin-top: 8%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 27%;
+    height: 27%;
+}
+
+.ligne4 > img.petit { 
+    margin-top: 4%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 20%;
+    height: 20%;
+}
+
+.ligne5 > img.petit { 
+    margin-top: 8%;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 100px;
+    height: 100px;
+}
+
+.lignes > img.grand { 
+    display: inline-flex;
+    margin-top: 7%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 27%;
+    height: 27%;
+}
+
+.desc {
+    word-spacing: 7.5rem;
+    text-align: center;
+}

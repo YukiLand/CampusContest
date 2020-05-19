@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Lecoffre Antoine portfolio</title> <!-- titre affiché sur l'onglet -->
 	<link rel="stylesheet" href="styles/parallax_link.css"/> <!-- CSS pour le parallax -->
 	<link rel="stylesheet" type="text/css" href="ressources/bootstrap/css/bootstrap.css">
@@ -71,7 +72,7 @@
     
     <div class="slide_inside"> <!-- Pas encore de projets à présenté pour le moment donc on met en standby avec un coming soon -->
       <h2 id="Projets">Projets</h2>
-      <img id="comingsoonpng" src="image/coming.jpg">
+      <?php include("html-fragment/projet.php") ?>
     </div>
 
   </div>
@@ -94,22 +95,23 @@
   <div id="slide6" class="slides"> <!-- Slide 6 -->
     
     <div class="slide_inside">
-      <h2 id="Contact">Contact</h2>
-       
-       <form name="contact" method="POST" action=""> <!-- Le formulaire de contact -->
+	  <h2 id="Contact">Contact</h2>
+	  
+      <div>
+       <form method="POST" action=""> <!-- Le formulaire de contact -->
          <p class="infoFormulaire">NOM prénom</p>
       
-         <p><label><input type="text" name="name" size="50"></label></p>
+         <p><input type="text" name="name" size="50"></p>
       
          <p class="infoFormulaire">Email :</p>
       
-         <p><label><input type="email" name="email" size="50"></label></p>
+         <p><input type="email" name="email" size="50"></p>
       
          <p class="infoFormulaire">Message :</p>
       
-         <p><label><textarea name="message" rows="8" cols="80"></textarea></label></p>
+		 <p><textarea name="message" rows="8" cols="80"></textarea></p>
 
-        <div class="form-group">
+		 <div class="form-group">
 			<div class="form-check">
 		      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
 		      <label class="form-check-label" for="invalidCheck3">
@@ -121,8 +123,31 @@
 		    <div class="invalid-feedback">
 		</div>
 	</div>
-    		<button  type="submit" class="btn btn-primary">Envoyer</button>
-      	</form>
+		 
+		 <input type="submit" name="envoyer" class="btn btn-primary"></input>
+
+<!-- <?php
+    if (!empty($_POST["envoyer"])){
+ 
+        ini_set( 'display_errors', 1 );
+    
+        error_reporting( E_ALL );
+    
+        $from = "neekeyo537@gmail.com";
+    
+        $to = "antoine.lecoffre@orange.fr";
+    
+        $subject = "Contact Site web de ".$_POST['name'];
+    
+        $message = $_POST['message']."\n\n\nAdresse mail du client: ".$_POST['email'];
+    
+        $headers = "From:" . $from;
+
+        mail($to, utf8_decode($subject), utf8_decode($message), $headers);
+	}?>
+			</form>
+</div> -->
+
       
       		<p id="phraseQuestionnaire">N'hésitez pas à répondre à <a href="#" data-toggle="modal" data-target="#bannerformmodal">ce questionnaire</a>  pour donner votre avis sur mon site, cela m'aiderai beaucoup !</p>
 
@@ -140,6 +165,7 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> <!-- javascript parallax -->
 	<script type="text/javascript" src="script/jquery.parallax-1.1.js"></script>
 	<script src="js/parallax.js"></script>
+	<script src="js/hover.js"></script>
     <!-- javascript bootstrap -->
     <script src="ressources/bootstrap/js/bootstrap.js"></script>
 

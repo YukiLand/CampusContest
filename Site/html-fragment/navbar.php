@@ -32,8 +32,7 @@
         <li class="nav-item dropdown" style="margin-left: 120px; margin-right: 10px;"> <!-- menu déroulant "pro" -->
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Langues</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="index.html">Français</a>
-            <a class="dropdown-item" href="english.html">English</a>
+            <a class="dropdown-item" href="index.php">Français</a>
           </div>
         </li>
 
