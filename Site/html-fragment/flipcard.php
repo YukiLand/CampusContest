@@ -2,7 +2,7 @@
   <div class="flip-card-inner">
     <div class="flip-card-front flip-card-front-1">
       <h2>Soft Skills</h2>
-      <img src="image/honor1.png" alt="Avatar">    
+      <img src="image/feuille.png" alt="Avatar">    
     </div>
     <div class="flip-card-back flip-card-back-1">
       <div class="lignes">
@@ -10,27 +10,27 @@
         <img class="grand" src="image/skills/soft/communication.png" alt="Communication Icon">
       </div>
       <div class="desc">
-        <p>Adaptation Communication</p>
+        <p>Adaptation / Communication</p>
       </div>
       <div class="lignes">
         <img class="grand" src="image/skills/soft/connaissance.png" alt="Connaissance Icon">
         <img class="grand" src="image/skills/soft/creativite.png" alt="Créativité Icon">
       </div>
       <div class="desc">
-        <p>Apprentissage Créativité</p>
+        <p>Apprentissage / Créativité</p>
       </div>
       <div class="lignes">
         <img class="grand" src="image/skills/soft/poignee.png" alt="Poignée Icon">
         <img class="grand" src="image/skills/soft/ponctuel.png" alt="Ponctuel Icon">
       </div>
       <div class="desc">
-        <p>Contact Ponctualité</p>
+        <p>Sociabilité / Ponctualité</p>
       </div>
       <div class="lignes">
         <img class="grand"src="image/skills/soft/teamwork.png" alt="TeamworkIcon">
       </div>
-      <div class="desc">
-        <p>Teamwork</p>
+      <div>
+        <p>Travail d'équipe</p>
       </div>
     </div>
   </div>
@@ -40,7 +40,7 @@
   <div class="flip-card-inner">
     <div class="flip-card-front flip-card-front-2">
       <h2>Hard Skills</h2>
-      <img src="image/honor2.png" alt="honor 2">
+      <img src="image/eau.png" alt="honor 2">
     </div>
     <div class="flip-card-back flip-card-back-2">
       <div class="ligne1">
@@ -74,7 +74,7 @@
   <div class="flip-card-inner">
     <div class="flip-card-front flip-card-front-3">
       <h2>Mad Skills</h2>
-      <img class="grand" src="image/honor3.png" alt="honor3">
+      <img class="grand" src="image/montagne.png" alt="honor3">
     </div>
     <div class="flip-card-back flip-card-back-3">
       <div class="lignes">

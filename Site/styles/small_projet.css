@@ -1,0 +1,27 @@
+.form-group {
+	color: black;
+}
+#btnContact {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.carteprojet {
+	display: block;
+    margin: auto;
+}
+
+.carte {
+	margin: 5%;
+    color: black;
+    margin-top: 10%;
+}
+
+#home-button {
+	width: 100%;
+	height: 100%;
+}
+
+.card {
+	animation: fadein 3s;
+}
